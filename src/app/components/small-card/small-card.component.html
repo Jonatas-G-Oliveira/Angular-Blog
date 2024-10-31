@@ -1,10 +1,10 @@
 <div class="container__small-card">
     <div class="container_small-card-content">
         <div class="small-card__photo">
-            <img src = "https://cdn.oantagonista.com/uploads/2024/08/Coringa-2-Warner-anuncia-pre-venda-de-ingressos-veja-quando-comprar-819x1024.jpeg" alt = "" srcset="">
+            <img src = {{thumbnail}} alt = "" srcset="">
         </div>
         <div class ="small-card__title">
-            <h1><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laudantium?</a></h1>
+            <h1><a [routerLink]="['content',Id]">{{title_small_card}}</a></h1>
         </div>
     </div>
     <div class = "container__small-card__separator">

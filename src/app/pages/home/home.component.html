@@ -1,18 +1,35 @@
 
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
+
 
 <app-title> </app-title>
 <div class="container_articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card
+        Id = "1" 
+        thumbnail="https://consolelog.com.br/content/images/2024/06/angular-18.png"
+        card_title= "Primeiro blog angular"
+        card_description= " Projeto criado durante o BootCamp FullStack da DIO 2025 "
+        ></app-big-card>
     </div>
     <div class="articles_others">
         
-        <app-small-card> </app-small-card>
-        <app-small-card> </app-small-card>
-        <app-small-card> </app-small-card>
+        <app-small-card
+        Id="2"
+        thumbnail= "https://cdns-images.dzcdn.net/images/cover/b5021d5a88c44071a97416c65d4dbdd9/0x1900-000000-80-0-0.jpg"
+        title_small_card= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laudantium?"
+        > 
+        </app-small-card> 
+        <app-small-card
+        Id="3"
+        thumbnail="https://m.media-amazon.com/images/I/71yx6XzPPUL._AC_UF894,1000_QL80_.jpg"
+        title_small_card="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laudantium?"> 
+        </app-small-card>
+
+        <app-small-card
+        Id="4"
+        thumbnail= "https://movienonsense.com/wp-content/uploads/2020/03/72370-joker3.jpg?w=810"
+        title_small_card = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laudantium?"> 
+        </app-small-card>
     </div>
 </div>
 
